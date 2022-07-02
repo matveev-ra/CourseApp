@@ -71,14 +71,28 @@
         android:layout_height="wrap_content"
         android:textOn="Включено"
         android:textOff="Выключено"
-
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="20dp" />
 
     <CalendarView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"/>
 
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#ccc"
+        android:gravity="center_horizontal"
+        android:text="До скорой встречи!"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:ems="5"
+        android:textColor="@color/red"/>
 
 
 </LinearLayout>
